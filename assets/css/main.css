@@ -21,6 +21,13 @@
 .slideUp { top:-100px; }
 .headroom { -webkit-transition: all 0.4s ease-out; -moz-transition: all 0.4s ease-out; -o-transition: all 0.4s ease-out; transition: all 0.4s ease-out; }
 
+/* Body */
+.container {
+    width: calc(100% - 40px);
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
 
 /* Highlights (in jumbotron in most cases) */
 .highlight { margin-top:40px; }
